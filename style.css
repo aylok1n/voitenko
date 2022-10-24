@@ -1,0 +1,20 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+video {
+  flex: 1;
+}
+
+input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  z-index: 1;
+}
