@@ -1,13 +1,17 @@
 #root {
   width: 100vw;
   height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
   display: flex;
+  overflow: hidden;
   position: relative;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 video {
+  min-width: 20px;
   flex: 1;
 }
 
@@ -16,5 +20,6 @@ input {
   top: 0;
   left: 0;
   width: 200px;
+  height: 30px;
   z-index: 1;
 }

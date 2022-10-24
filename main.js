@@ -3,7 +3,7 @@ const input = document.querySelector("#input");
 
 input.addEventListener("change", (e) => {
   const count = Number(e.target.value);
-
+  root.innerHTML = "";
   for (let i = 0; i < count; i++) {
     const video = document.createElement("video");
     video.autoplay = true;
